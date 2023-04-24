@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,200&family=Libre+Baskerville&family=Ubuntu:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 90px;
+    background: black;
+    color: white;
+}
+.brand img{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+nav ul li{
+    padding: 0 15px;
+    background-color: black;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    cursor: pointer;
+}
+h1{
+    font-size: 1.6rem;
+    text-align: center;
+    margin:5px 0 5px 0;
+}
+.container{
+    height: 63vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(https://images.unsplash.com/photo-1552308643-1dc072dab3e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    color: white;
+    height:90px;
+    padding: 2px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 15px;
+    background-color: black;
+    padding: 0 10px;
+    gap: 10px;
+}
+.icons i{
+    cursor: pointer;
+    background-color: black;
+}
+.songItems{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 80%;
+    color: black;
+    border-radius: 30px;
+    padding: 0 30px;
+    margin-top: 10px;
+}
+.songItemContainer{
+    margin-top: 40px;
+}
+.songItems img{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    /* margin: 0 15px; */
+}
+.timeStamp{
+    margin: 0 15px;
+}
+.timeStamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Ubuntu';
+}
+.songInfo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
