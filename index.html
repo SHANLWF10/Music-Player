@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVzaWMlMjBsb2dvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+    />
+    <link rel="stylesheet" href="Styles.css" />
+    <script defer src="Script.js"></script>
+    <title>Music || Music Player</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <img
+            src="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVzaWMlMjBsb2dvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+            alt="logo"
+          />Music
+        </li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="songList">
+        <h1>Playlist</h1>
+        <hr>
+        <div class="songItemContainer">
+          <div class="songItems">
+            <img
+              alt="1"
+            />
+            <span class="songName">Let Me Love You</span>
+            <span class="songListPlay"
+              ><span class="timeStamp"
+                >05:33 <i id="0" class="songItemPlay fa-regular fa-circle-play"></i></span
+            ></span>
+          </div>
+          <div class="songItems">
+            <img
+              alt="1"
+            />
+            <span class="songName">Let Me Love You</span>
+            <span class="songListPlay"
+              ><span class="timeStamp"
+                >05:33 <i id="1" class="songItemPlay fa-regular fa-circle-play"></i></span
+            ></span>
+          </div>
+          <div class="songItems">
+            <img
+              alt="1"
+            />
+            <span class="songName">Let Me Love You</span>
+            <span class="songListPlay"
+              ><span class="timeStamp"
+                >05:33 <i id="2" class="songItemPlay fa-regular fa-circle-play"></i></span
+            ></span>
+          </div>
+          <div class="songItems">
+            <img
+              alt="1"
+            />
+            <span class="songName">Let Me Love You</span>
+            <span class="songListPlay"
+              ><span class="timeStamp"
+                >05:33 <i id="3" class="songItemPlay fa-regular fa-circle-play"></i></span
+            ></span>
+          </div>
+          <div class="songItems">
+            <img
+              alt="1"
+            />
+            <span class="songName">Let Me Love You</span>
+            <span class="songListPlay"
+              ><span class="timeStamp"
+                >05:33 <i id="4" class="songItemPlay fa-regular fa-circle-play"></i></span
+            ></span>
+          </div>
+          <div class="songItems">
+            <img
+              alt="1"
+            />
+            <span class="songName">Let Me Love You</span>
+            <span class="songListPlay"
+              ><span class="timeStamp"
+                >05:33 <i id="5" class="songItemPlay fa-regular fa-circle-play"></i></span
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        max="100"
+        value="0"
+      />
+      <div class="icons">
+        <i id="previous"  class="fa-solid fa-3x fa-backward"></i>
+        <i  class="fa-regular fa-3x fa-circle-play" id="playBtn"></i>
+        <i id="next" class="fa-solid fa-3x fa-forward"></i>
+      </div>
+      <div class="songInfo">
+        <span id="currentSongName">Let Me Love You</span>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/f1bd28e402.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
